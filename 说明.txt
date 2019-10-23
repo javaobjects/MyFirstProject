@@ -1,0 +1,21 @@
+JRE (Java Runtime Environment）— Java运行环境（用户必备环境）
+JDK (Java Developement Kit) —— Java开发工具包 (程序员必备环境，jdk中自带jre)
+
+java -verison查看JDK版本
+javac  编译命令
+java   解释执行命令
+
+IDE集成开发环境：eclipse  idea   sts  myeclipse   eclipseSE  eclipseEE  
+前端开发环境： sublime HBuilder Webstorm DW
+
+------------------------------------------------------------------------------------------------
+
+1.调整字体大小：window - preferences - general - apprearance - colors and fonts - basic - text font - edit编辑字体大小
+
+2.导入已存在项目：File - import - general - existing project into workspace - 选择需要导入的项目OK
+
+3.修改项目编码格式不一致：项目右键 - properties - resource - text file encoding - 选择对应的编码格式（GBK中文、UTF-8通用）
+
+4.修改项目JDK版本不一致：项目右键 - build path - configure build path - library - 选中当前的jre system library - edit编辑为自己的版本
+
+5.导出doc文档（可同时导出文档注释）：项目右键 - export - java - javadoc - 导出
